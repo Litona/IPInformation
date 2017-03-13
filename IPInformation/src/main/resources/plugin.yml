@@ -1,0 +1,13 @@
+name: IPInformation
+main: de.litona.ipInformation.Main
+version: 1.0
+author: Litona
+commands:
+  ipinfo:
+    description: Get information about a player by their IP
+    usage: /ipinfo (Player)
+    permission: ipInformation.command
+  ipinfokey:
+    description: Set the API keys
+    usage: /ipinfokey <m/w> (Key)
+    permission: ipInformation.keys
